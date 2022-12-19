@@ -1,6 +1,6 @@
 <template>
   <div id="twic-slider-container">
-    <TwicWrapper gitHubUrl="src/components/TwicSlider.vue">
+    <TwicWrapper gitHubUrl="src/views/TwicSlider.vue">
       <TwicAbstract title="A slider">
         <p>
           A simple slider that uses TwicPics for automatic lazy-loading, CLS

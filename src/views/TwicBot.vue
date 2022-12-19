@@ -1,6 +1,6 @@
 <template>
   <div id="twic-bot-container">
-    <TwicWrapper gitHubUrl="src/components/TwicBot.vue">
+    <TwicWrapper gitHubUrl="src/views/TwicBot.vue">
       <TwicAbstract title="bot property">
         <p>
           <strong>

@@ -1,6 +1,6 @@
 <template>
   <div id="twic-basic-grid-container">
-    <TwicWrapper gitHubUrl="src/components/TwicBasicGrid.vue">
+    <TwicWrapper gitHubUrl="src/views/TwicBasicGrid.vue">
       <TwicAbstract title="A basic example">
         <p>
           TwicPics is a Responsive Image Service Solution (SaaS) that enables

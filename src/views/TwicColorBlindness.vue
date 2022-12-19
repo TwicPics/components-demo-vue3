@@ -1,6 +1,6 @@
 <template>
   <div id="twic-color-blindness-container">
-    <TwicWrapper gitHubUrl="src/components/TwicColorBlindness.vue">
+    <TwicWrapper gitHubUrl="src/views/TwicColorBlindness.vue">
       <TwicAbstract title="Color blindness filters">
         <p>
           You can apply correction filters for color blind people with our&nbsp;
