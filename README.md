@@ -1,6 +1,6 @@
 # TwicPics Components + Vue3
 
-This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/vue-3#vue-3?utm_source=github&utm_medium=organic&utm_campaign=components) using [Vue 3](https://vuejs.org/).
+This project is a demonstration project of [TwicPics Components](https://www.twicpics.com/docs/components/vue-3?utm_source=github&utm_medium=organic&utm_campaign=components#vue-3) using [Vue 3](https://vuejs.org/).
 
 ## Recommended IDE Setup
 
@@ -83,7 +83,7 @@ TwicPics components for `Vue3` comes as an `Vue3 Plugin` and is configured as [s
 
 An example of configuration is set within `main.js` file.
 
-All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/vue-3#setup-options)).
+All you have to do is set your configuration options to the desired values ([see documentation](https://www.twicpics.com/docs/components/vue-3?utm_source=github&utm_medium=organic&utm_campaign=components#setup-options)).
 
 ## Examples
 

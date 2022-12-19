@@ -125,7 +125,7 @@
 <script>
 const horizontalConfig = [
   {
-    anchor: `center`,
+    anchor: undefined,
   },
   {
     anchor: `left`,
@@ -136,7 +136,7 @@ const horizontalConfig = [
 ];
 const verticalConfig = [
   {
-    anchor: `center`,
+    anchor: undefined,
   },
   {
     anchor: `top`,
