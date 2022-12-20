@@ -70,6 +70,7 @@ export default {
             {
               route: `/flip-cards`,
               imgSrc: `components/flip/orange-1.jpg`,
+              focus: `50px70p`,
               title: `Flip cards`,
             },
             {
