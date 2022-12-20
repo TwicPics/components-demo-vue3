@@ -25,21 +25,20 @@
             >left</Code
           >
           ,&nbsp;
-          <Code>right</Code>,<Code>top-left</Code>,<Code>top-right</Code>,<Code
-            >bottom-left</Code
-          >
-          and&nbsp;
-          <Code>bottom-right</Code>.
+          <Code>right</Code
+          >,<Code>top-left</Code>,<Code>top-right</Code>,<Code>bottom-left</Code>,
+          <Code>bottom-right</Code>and<Code>center</Code>.
         </p>
         <p>
           Please note that anchor is applied after an eventual transformation
           defined with&nbsp;
           <a href="/preTransform" target="_blank" rel="noreferrer"
             >preTransform</a
-          >property.
+          >
+          property.
         </p>
         <p>
-          For a more specific positionning see&nbsp;
+          For a more specific positioning see&nbsp;
           <a href="/position" target="_blank" rel="noreferrer">position</a>
           &nbsp;or&nbsp;
           <a href="/focus" target="_blank" rel="noreferrer">focus</a>
@@ -124,7 +123,7 @@
 <script>
 const horizontalConfig = [
   {
-    anchor: undefined,
+    anchor: `center`,
   },
   {
     anchor: `left`,
@@ -135,7 +134,7 @@ const horizontalConfig = [
 ];
 const verticalConfig = [
   {
-    anchor: undefined,
+    anchor: `center`,
   },
   {
     anchor: `top`,
