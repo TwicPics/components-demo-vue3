@@ -13,9 +13,8 @@
             href="https://www.twicpics.com/docs/api/transformations"
             target="_blank"
             rel="noreferrer"
+            >TwicPics documentation</a
           >
-            TwicPics documentation
-          </a>
           &nbsp;to see the list of API transformations.
         </p>
         <p>

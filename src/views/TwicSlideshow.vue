@@ -8,9 +8,7 @@
         </p>
         <p>
           Monitor the&nbsp;
-          <a href="/state" target="_blank" rel="noreferrer">
-            loading status&nbsp;
-          </a>
+          <a href="/state" target="_blank" rel="noreferrer">loading status</a>
           &nbsp; of your media with<Code>onStateChange</Code>callback property.
         </p>
         <p>

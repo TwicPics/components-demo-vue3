@@ -18,10 +18,8 @@
             href="https://www.twicpics.com/docs/api/transformations?utm_source=github&utm_medium=organic&utm_campaign=components"
             target="_blank"
             rel="noreferrer"
-          >
-            TwicPics API transformations
-          </a>
-          .
+            >TwicPics API transformations</a
+          >.
         </p>
         <p>
           In the example bellow,<Code>bot</Code>has been set to "cover=400x400".
