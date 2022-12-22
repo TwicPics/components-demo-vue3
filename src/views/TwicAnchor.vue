@@ -1,6 +1,6 @@
 <template>
   <div id="twic-anchor-container">
-    <TwicWrapper gitHubUrl="src/views/TwicAnchor.vue">
+    <TwicWrapper filename="src/views/TwicAnchor.vue">
       <TwicAbstract title="anchor property">
         <p>
           <strong>

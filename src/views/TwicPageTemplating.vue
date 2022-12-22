@@ -1,6 +1,6 @@
 <template>
   <div id="twic-working-without-images-container">
-    <TwicWrapper gitHubUrl="src/views/TwicPageTemplating.vue">
+    <TwicWrapper filename="src/views/TwicPageTemplating.vue">
       <TwicAbstract title="Prepare your page template">
         <p>
           When you develop the page template and can't or don't want to

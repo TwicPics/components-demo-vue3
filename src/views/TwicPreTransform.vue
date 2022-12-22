@@ -1,6 +1,6 @@
 <template>
   <div id="twic-pretransform-container">
-    <TwicWrapper gitHubUrl="src/views/TwicPreTransform.vue">
+    <TwicWrapper filename="src/views/TwicPreTransform.vue">
       <TwicAbstract title="preTransform property">
         <p>
           <Code>preTransform</Code>is a slash-separated list of TwicPics API

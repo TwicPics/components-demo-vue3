@@ -1,6 +1,6 @@
 <template>
   <div id="twic-intrinsic-container">
-    <TwicWrapper gitHubUrl="src/views/TwicIntrinsic.vue">
+    <TwicWrapper filename="src/views/TwicIntrinsic.vue">
       <div class="demo-container">
         <TwicAbstract title="intrinsic property">
           <p>

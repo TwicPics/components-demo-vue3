@@ -1,6 +1,6 @@
 <template>
   <div id="twic-hero-container">
-    <TwicWrapper gitHubUrl="src/views/TwicHero.vue">
+    <TwicWrapper filename="src/views/TwicHero.vue">
       <div class="twic-demo-container">
         <TwicAbstract title="Hero image">
           <p>To display a hero image (or video) you need to :</p>

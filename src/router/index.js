@@ -115,7 +115,7 @@ const router = createRouter({
       component: TwicPlaceholder,
     },
     {
-      path: "/pretransform",
+      path: "/pre-transform",
       name: "TwicPreTransform",
       component: TwicPreTransform,
     },

@@ -1,6 +1,6 @@
 <template>
   <div id="twic-style-driven-container">
-    <TwicWrapper gitHubUrl="src/views/TwicStyleDriven.vue">
+    <TwicWrapper filename="src/views/TwicStyleDriven.vue">
       <TwicAbstract title="CSS style driven">
         <p>
           You can set up the TwicPics components using pure CSS and the power of

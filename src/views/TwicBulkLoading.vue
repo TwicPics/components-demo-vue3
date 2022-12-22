@@ -1,6 +1,6 @@
 <template>
   <div id="twic-bulk-loading-container">
-    <TwicWrapper gitHubUrl="src/views/TwicBulkLoading.vue">
+    <TwicWrapper filename="src/views/TwicBulkLoading.vue">
       <TwicAbstract title="Bulk loading">
         <p>
           With<Code>TwicImg</Code>and<Code>TwicVideo</Code>your medias will only
