@@ -25,6 +25,7 @@ import TwicState from "../views/TwicState.vue";
 import TwicSlideshow from "../views/TwicSlideshow.vue";
 import TwicStyleDriven from "../views/TwicStyleDriven.vue";
 import TwicTransition from "../views/TwicTransition.vue";
+import TwicZoom from "../views/TwicZoom.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -158,6 +159,11 @@ const router = createRouter({
       path: "/transition",
       name: "TwicTransition",
       component: TwicTransition,
+    },
+    {
+      path: "/zoom",
+      name: "TwicZoom",
+      component: TwicZoom,
     },
   ],
 });

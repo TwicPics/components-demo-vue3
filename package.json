@@ -13,7 +13,7 @@
     "serve": "vite"
   },
   "dependencies": {
-    "@twicpics/components": "latest",
+    "@twicpics/components": "../../components/dist",
     "vue": "3.2.45",
     "vue-router": "^4.1.6"
   },
