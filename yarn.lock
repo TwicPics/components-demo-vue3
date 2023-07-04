@@ -199,10 +199,8 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.2.0.tgz#8be36a1f66f3265389e90b5f9c9962146758f728"
   integrity sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==
 
-"@twicpics/components@0.17.3":
-  version "0.17.3"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.17.3.tgz#94740ef8f802b659da5fc92e5bb50af711bd3e39"
-  integrity sha512-alKDwCjIf8yviq8j6PtbJwehdAPBy6dxvsXMLvkhC9jOjumBYWPRDN0wk3sAthPbsRBc6i/0Bj3fhThRFp/Dxg==
+"@twicpics/components@../../components/dist":
+  version "0.19.0"
 
 "@vitejs/plugin-vue@^4.2.3":
   version "4.2.3"

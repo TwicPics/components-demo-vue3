@@ -19,6 +19,7 @@ import TwicPreTransform from "../views/TwicPreTransform.vue";
 import TwicPlaceholder from "../views/TwicPlaceholder.vue";
 import TwicPosition from "../views/TwicPosition.vue";
 import TwicRatio from "../views/TwicRatio.vue";
+import TwicRefit from "../views/TwicRefit.vue";
 import TwicSlider from "../views/TwicSlider.vue";
 import TwicShortVideos from "../views/TwicShortVideos.vue";
 import TwicState from "../views/TwicState.vue";
@@ -134,6 +135,11 @@ const router = createRouter({
       path: "/ratio",
       name: "TwicRatio",
       component: TwicRatio,
+    },
+    {
+      path: "/refit",
+      name: "TwicRefit",
+      component: TwicRefit,
     },
     {
       path: "/slider",
