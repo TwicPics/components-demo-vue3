@@ -3,16 +3,27 @@
     <TwicWrapper filename="src/views/TwicRefit.vue">
       <TwicAbstract title="refit property">
         <p>
-          <strong>
-            The <dfn>refit</dfn> property resizes the image while maximizing the
-            area occupied by the main object (or objects) found within said
-            image.
-          </strong>
+          <strong> The <dfn>refit</dfn> property: </strong>
         </p>
+        <ul>
+          <li>
+            reframes the image to maximize the area occupied by the main
+            object(s) while respecting
+            <a href="/ratio" target="_blank" rel="noreferrer"> ratio </a> in
+            <TwicCode>cover</TwicCode>
+            <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
+          </li>
+          <li>
+            crops the image as close as possible to the main object(s) in
+            <TwicCode>contain</TwicCode>
+            <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
+          </li>
+        </ul>
         <p>
-          To enable <dfn>refit</dfn>, simply add the <Code>refit</Code> property
-          to the <Code>TwicImg</Code> component like in
-          <Code>&lt;TwicImg src="image.jpg" refit/&gt;</Code>
+          To enable <dfn>refit</dfn>, simply add the
+          <TwicCode>refit</TwicCode> property to the
+          <TwicCode>TwicImg</TwicCode> component like in
+          <TwicCode>&lt;TwicImg src="image.jpg" refit/&gt;</TwicCode>
         </p>
         <p>
           By default, the subject will be placed at the center of the resulting
@@ -25,7 +36,7 @@
         <p>
           Also by default, the subject will touch the borders of the resulting
           image. This can be avoided by <strong>adding padding</strong> like in
-          <Code>&lt;TwicImg src="image.jpg" refit="5p"/&gt;</Code>.
+          <TwicCode>&lt;TwicImg src="image.jpg" refit="5p"/&gt;</TwicCode>.
         </p>
         <p>
           <a
@@ -44,7 +55,7 @@
       </div>
       <div class="twic-grid">
         <div class="twic-item">
-          <TwicImg :src="IMG_URL" :mode="actualConfig.mode" />
+          <TwicImg v-if="show" :src="IMG_URL" :mode="actualConfig.mode" />
           <span> Original image + mode="{{ actualConfig.mode }}" </span>
         </div>
         <div class="twic-item">
@@ -63,11 +74,10 @@
             + mode='{{ actualConfig.mode }}'
           </span>
         </div>
-
         <div class="twic-item">
           <TwicImg
             :src="IMG_URL"
-            anchor="top"
+            anchor="left"
             :mode="actualConfig.mode"
             ratio="4/3"
             :refit="actualConfig.refit"
@@ -78,13 +88,13 @@
                 ? "refit"
                 : "refit=''" + actualConfig.refit + "''"
             }}
-            + mode='{{ actualConfig.mode }}' + anchor="top"</span
+            + mode='{{ actualConfig.mode }}' + anchor="left"</span
           >
         </div>
         <div class="twic-item">
           <TwicImg
             :src="IMG_URL"
-            anchor="bottom"
+            anchor="right"
             :mode="actualConfig.mode"
             ratio="4/3"
             :refit="actualConfig.refit"
@@ -95,7 +105,7 @@
                 ? "refit"
                 : "refit=''" + actualConfig.refit + "''"
             }}
-            {{ actualConfig.mode }}" + anchor="bottom"</span
+            {{ actualConfig.mode }}" + anchor="right"</span
           >
         </div>
       </div>
@@ -126,7 +136,8 @@ export default {
         },
       ],
       indiceConfig: 0,
-      IMG_URL: `components/refit/yellow-combi.jpg`,
+      IMG_URL: `components/refit/dog-looking-water.jpg`,
+      show: true,
     };
   },
   computed: {
@@ -136,7 +147,9 @@ export default {
   },
   methods: {
     updateIndice() {
+      setTimeout(() => (this.show = false));
       this.indiceConfig = (this.indiceConfig + 1) % this.config.length;
+      setTimeout(() => (this.show = true));
     },
   },
 };
