@@ -6,6 +6,7 @@ import TwicBasicGrid from "../views/TwicBasicGrid.vue";
 import TwicBulkLoading from "../views/TwicBulkLoading.vue";
 import TwicBot from "../views/TwicBot.vue";
 import TwicColorBlindness from "../views/TwicColorBlindness.vue";
+import TwicCriticalImage from "../views/TwicCriticalImage.vue";
 import TwicEager from "../views/TwicEager.vue";
 import TwicFlipCards from "../views/TwicFlipCards.vue";
 import TwicFocus from "../views/TwicFocus.vue";
@@ -65,6 +66,11 @@ const router = createRouter({
       path: "/color-blindness",
       name: "TwicColorBlindness",
       component: TwicColorBlindness,
+    },
+    {
+      path: `/critical-image`,
+      name: `TwicCriticalImage`,
+      component: TwicCriticalImage,
     },
     {
       path: "/eager",

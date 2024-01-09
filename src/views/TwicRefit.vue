@@ -10,20 +10,20 @@
             reframes the image to maximize the area occupied by the main
             object(s) while respecting
             <a href="/ratio" target="_blank" rel="noreferrer"> ratio </a> in
-            <TwicCode>cover</TwicCode>
+            <Code>cover</Code>
             <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
           </li>
           <li>
             crops the image as close as possible to the main object(s) in
-            <TwicCode>contain</TwicCode>
+            <Code>contain</Code>
             <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
           </li>
         </ul>
         <p>
           To enable <dfn>refit</dfn>, simply add the
-          <TwicCode>refit</TwicCode> property to the
-          <TwicCode>TwicImg</TwicCode> component like in
-          <TwicCode>&lt;TwicImg src="image.jpg" refit/&gt;</TwicCode>
+          <Code>refit</Code> property to the
+          <Code>TwicImg</Code> component like in
+          <Code>&lt;TwicImg src="image.jpg" refit/&gt;</Code>
         </p>
         <p>
           By default, the subject will be placed at the center of the resulting
@@ -36,11 +36,11 @@
         <p>
           Also by default, the subject will touch the borders of the resulting
           image. This can be avoided by <strong>adding padding</strong> like in
-          <TwicCode>&lt;TwicImg src="image.jpg" refit="5p"/&gt;</TwicCode>.
+          <Code>&lt;TwicImg src="image.jpg" refit="5p"/&gt;</Code>.
         </p>
         <p>
           <a
-            href="https://www.twicpics.com/blog/discover-the-refit-transformation?utm_source=github&utm_medium=organic&utm_campaign=components#span-classexperimentalachromatopsiaspan"
+            href="https://www.twicpics.com/blog/components-feature-refit"
             target="_blank"
             rel="noreferrer"
           >

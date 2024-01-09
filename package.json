@@ -13,19 +13,19 @@
     "serve": "vite"
   },
   "dependencies": {
-    "@twicpics/components": "0.26.0",
-    "vue": "3.3.2",
+    "@twicpics/components": "../../components/dist",
+    "vue": "3.4.7",
     "vue-router": "^4.2.0"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.5.0",
-    "@vitejs/plugin-vue": "^4.3.4",
-    "@vue/eslint-config-prettier": "^8.0.0",
-    "eslint": "^8.50.0",
-    "eslint-plugin-vue": "^9.17.0",
-    "prettier": "^3.0.3",
-    "sass": "^1.68.0",
-    "sass-loader": "^13.2.2",
-    "vite": "^4.4.9"
+    "@rushstack/eslint-patch": "^1.6.1",
+    "@vitejs/plugin-vue": "^5.0.2",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "prettier": "^3.1.1",
+    "sass": "^1.69.7",
+    "sass-loader": "^13.3.3",
+    "vite": "^5.0.11"
   }
 }
