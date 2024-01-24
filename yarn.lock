@@ -286,10 +286,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.7.0.tgz#b5bc1e081428794f6a4d239707b359404be35ce2"
   integrity sha512-Jh4t/593gxs0lJZ/z3NnasKlplXT2f+4y/LZYuaKZW5KAaiVFL/fThhs+17EbUd53jUVJ0QudYCBGbN/psvaqg==
 
-"@twicpics/components@0.27.0":
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.27.0.tgz#8a5ca55b83d053d506307444be61d6bc48215dfc"
-  integrity sha512-+VSVlLiRLZEaodtCmDUTfN3vtP3xRr//Qm95T6yTqSvvDfkTHr5hsjqL8mfKvGQ7GSdrCvz5/ndMYVRjEZF0cg==
+"@twicpics/components@0.27.1":
+  version "0.27.1"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.27.1.tgz#8729272d55fa9849e5d9f1f4295b3056ee4a13aa"
+  integrity sha512-AICE+o49BqySJKKViUPfgUkY04sWtXFQvj6MERa2TliI0JyrByl5PFmBtjUNAXCO2z/hNJDdS4JlgCxx9s3rLA==
 
 "@types/estree@1.0.5":
   version "1.0.5"
