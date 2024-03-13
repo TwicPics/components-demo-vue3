@@ -28,7 +28,7 @@
           It operates independently of
           <a
             target="_blank"
-            href="https://www.twicpics.com/docs/essentials/script"
+            href="https://www.twicpics.com/docs/essentials/native"
           >
             TwicPics Script
           </a>
@@ -37,7 +37,7 @@
           <b>single master file</b> using variants transformed through
           <a
             target="_blank"
-            href="https://www.twicpics.com/docs/guides/writing-api-requests"
+            href="https://www.twicpics.com/docs/essentials/api"
             >TwicPics API</a
           >.
         </p>
